@@ -202,7 +202,6 @@ body p {
 
 }
 #flast_sale {
-    height: 500px;
     display: flex;
     flex-direction: column;
     background-color: #d91d03;
@@ -212,14 +211,14 @@ body p {
 }
 #flast_sale_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #flast_sale_option {
     background-color: #fefefe;
     width: 12%;
     height: 350px;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -260,4 +259,9 @@ body p {
     align-items: center;
     justify-content: space-around;
     height: 50%;
+}
+#flast_sale_container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
